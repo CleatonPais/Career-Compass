@@ -1,0 +1,44 @@
+@media screen and (min-width: 992px) {
+    .login-form-col{
+        border-radius: 0 40px 40px 0;
+    }
+
+    .login-field {
+        width: 350px;
+    }
+    
+    .login-forgot-pass{
+        margin-left: 150px;
+    }
+
+    .login-btns button {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .login-form-col{
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    
+
+    .login-field {
+        width: 250px;
+    }
+
+    .login-forgot-pass{
+        margin-left: 70px;
+    }
+
+    .login-btns button {
+        width: 250px;
+    }
+
+    .start-0{
+        left: 0% !important;
+    }
+}

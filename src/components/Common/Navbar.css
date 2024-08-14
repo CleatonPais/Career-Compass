@@ -1,0 +1,58 @@
+/* Additional styles for the navbar */
+
+.navbar-custom {
+    background-color: var(--primary-color);
+  }
+  
+  .navbar-logo {
+    height: 80px;
+    width: 200px;
+  }
+  
+  .navbar-nav-custom {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-link-custom {
+    margin-right: 40px;
+  }
+  
+  .navbar-profile-link {
+    margin-right: 10px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-profile-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  /* Responsive styles for tablets and mobiles */
+  @media (max-width: 768px) {
+
+    .navbar-nav-custom {
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .navbar-link-custom {
+      margin-right: 0;
+      padding: 10px 0;
+    }
+    .navbar-profile-link{
+     display: flex !important;
+     justify-content: center !important;
+     align-items: center !important;
+     width: 100%;
+    }
+
+}
+  

@@ -1,0 +1,40 @@
+.carousel-indicators {
+    bottom: -50px;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: rgb(92, 107, 192);
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .carousel-control-prev {
+      left: -100px;
+    }
+  
+    .carousel-control-next {
+      right: -100px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+      .home-form-search{
+         width: 100%; 
+      }
+  
+      .carousel-control-prev {
+        left: -50px;
+      }
+    
+      .carousel-control-next {
+        right: -50px;
+      }
+  }
+  
+  @media screen and (max-width:768px) {
+      .home-form-search{
+          width: 50%;
+      }
+      
+  }
+  
+  

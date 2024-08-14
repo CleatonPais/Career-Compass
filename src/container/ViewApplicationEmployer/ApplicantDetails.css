@@ -1,0 +1,17 @@
+.personal-details {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.download-items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.applicant-heding {
+  text-align: center;
+  padding: 80px;
+}
